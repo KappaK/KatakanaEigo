@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816F6AB11CE3450600019D7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AB01CE3450600019D7C /* AppDelegate.swift */; };
+		816F6AB31CE3450600019D7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AB21CE3450600019D7C /* ViewController.swift */; };
+		816F6AB61CE3450600019D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F6AB41CE3450600019D7C /* Main.storyboard */; };
+		816F6AB81CE3450600019D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816F6AB71CE3450600019D7C /* Assets.xcassets */; };
+		816F6ABB1CE3450600019D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F6AB91CE3450600019D7C /* LaunchScreen.storyboard */; };
+		816F6AC61CE3450600019D7C /* KatakanaEigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AC51CE3450600019D7C /* KatakanaEigoTests.swift */; };
+		816F6AD11CE3450600019D7C /* KatakanaEigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AD01CE3450600019D7C /* KatakanaEigoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816F6AC21CE3450600019D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816F6AA51CE3450500019D7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816F6AAC1CE3450500019D7C;
+			remoteInfo = KatakanaEigo;
+		};
+		816F6ACD1CE3450600019D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816F6AA51CE3450500019D7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816F6AAC1CE3450500019D7C;
+			remoteInfo = KatakanaEigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		816F6AAD1CE3450500019D7C /* KatakanaEigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KatakanaEigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F6AB01CE3450600019D7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		816F6AB21CE3450600019D7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		816F6AB51CE3450600019D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		816F6AB71CE3450600019D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816F6ABA1CE3450600019D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		816F6ABC1CE3450600019D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816F6AC11CE3450600019D7C /* KatakanaEigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatakanaEigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F6AC51CE3450600019D7C /* KatakanaEigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatakanaEigoTests.swift; sourceTree = "<group>"; };
+		816F6AC71CE3450600019D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816F6ACC1CE3450600019D7C /* KatakanaEigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatakanaEigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F6AD01CE3450600019D7C /* KatakanaEigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatakanaEigoUITests.swift; sourceTree = "<group>"; };
+		816F6AD21CE3450600019D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816F6AAA1CE3450500019D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F6ABE1CE3450600019D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F6AC91CE3450600019D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816F6AA41CE3450500019D7C = {
+			isa = PBXGroup;
+			children = (
+				816F6AAF1CE3450600019D7C /* KatakanaEigo */,
+				816F6AC41CE3450600019D7C /* KatakanaEigoTests */,
+				816F6ACF1CE3450600019D7C /* KatakanaEigoUITests */,
+				816F6AAE1CE3450500019D7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816F6AAE1CE3450500019D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816F6AAD1CE3450500019D7C /* KatakanaEigo.app */,
+				816F6AC11CE3450600019D7C /* KatakanaEigoTests.xctest */,
+				816F6ACC1CE3450600019D7C /* KatakanaEigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816F6AAF1CE3450600019D7C /* KatakanaEigo */ = {
+			isa = PBXGroup;
+			children = (
+				816F6AB01CE3450600019D7C /* AppDelegate.swift */,
+				816F6AB21CE3450600019D7C /* ViewController.swift */,
+				816F6AB41CE3450600019D7C /* Main.storyboard */,
+				816F6AB71CE3450600019D7C /* Assets.xcassets */,
+				816F6AB91CE3450600019D7C /* LaunchScreen.storyboard */,
+				816F6ABC1CE3450600019D7C /* Info.plist */,
+			);
+			path = KatakanaEigo;
+			sourceTree = "<group>";
+		};
+		816F6AC41CE3450600019D7C /* KatakanaEigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				816F6AC51CE3450600019D7C /* KatakanaEigoTests.swift */,
+				816F6AC71CE3450600019D7C /* Info.plist */,
+			);
+			path = KatakanaEigoTests;
+			sourceTree = "<group>";
+		};
+		816F6ACF1CE3450600019D7C /* KatakanaEigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				816F6AD01CE3450600019D7C /* KatakanaEigoUITests.swift */,
+				816F6AD21CE3450600019D7C /* Info.plist */,
+			);
+			path = KatakanaEigoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816F6AAC1CE3450500019D7C /* KatakanaEigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816F6AD51CE3450600019D7C /* Build configuration list for PBXNativeTarget "KatakanaEigo" */;
+			buildPhases = (
+				816F6AA91CE3450500019D7C /* Sources */,
+				816F6AAA1CE3450500019D7C /* Frameworks */,
+				816F6AAB1CE3450500019D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KatakanaEigo;
+			productName = KatakanaEigo;
+			productReference = 816F6AAD1CE3450500019D7C /* KatakanaEigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816F6AC01CE3450600019D7C /* KatakanaEigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816F6AD81CE3450600019D7C /* Build configuration list for PBXNativeTarget "KatakanaEigoTests" */;
+			buildPhases = (
+				816F6ABD1CE3450600019D7C /* Sources */,
+				816F6ABE1CE3450600019D7C /* Frameworks */,
+				816F6ABF1CE3450600019D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816F6AC31CE3450600019D7C /* PBXTargetDependency */,
+			);
+			name = KatakanaEigoTests;
+			productName = KatakanaEigoTests;
+			productReference = 816F6AC11CE3450600019D7C /* KatakanaEigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		816F6ACB1CE3450600019D7C /* KatakanaEigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816F6ADB1CE3450600019D7C /* Build configuration list for PBXNativeTarget "KatakanaEigoUITests" */;
+			buildPhases = (
+				816F6AC81CE3450600019D7C /* Sources */,
+				816F6AC91CE3450600019D7C /* Frameworks */,
+				816F6ACA1CE3450600019D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816F6ACE1CE3450600019D7C /* PBXTargetDependency */,
+			);
+			name = KatakanaEigoUITests;
+			productName = KatakanaEigoUITests;
+			productReference = 816F6ACC1CE3450600019D7C /* KatakanaEigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816F6AA51CE3450500019D7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kappa;
+				TargetAttributes = {
+					816F6AAC1CE3450500019D7C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E9AWZ9P2WH;
+					};
+					816F6AC01CE3450600019D7C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E9AWZ9P2WH;
+						TestTargetID = 816F6AAC1CE3450500019D7C;
+					};
+					816F6ACB1CE3450600019D7C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E9AWZ9P2WH;
+						TestTargetID = 816F6AAC1CE3450500019D7C;
+					};
+				};
+			};
+			buildConfigurationList = 816F6AA81CE3450500019D7C /* Build configuration list for PBXProject "KatakanaEigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816F6AA41CE3450500019D7C;
+			productRefGroup = 816F6AAE1CE3450500019D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816F6AAC1CE3450500019D7C /* KatakanaEigo */,
+				816F6AC01CE3450600019D7C /* KatakanaEigoTests */,
+				816F6ACB1CE3450600019D7C /* KatakanaEigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816F6AAB1CE3450500019D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816F6ABB1CE3450600019D7C /* LaunchScreen.storyboard in Resources */,
+				816F6AB81CE3450600019D7C /* Assets.xcassets in Resources */,
+				816F6AB61CE3450600019D7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F6ABF1CE3450600019D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F6ACA1CE3450600019D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816F6AA91CE3450500019D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816F6AB31CE3450600019D7C /* ViewController.swift in Sources */,
+				816F6AB11CE3450600019D7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F6ABD1CE3450600019D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816F6AC61CE3450600019D7C /* KatakanaEigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F6AC81CE3450600019D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816F6AD11CE3450600019D7C /* KatakanaEigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816F6AC31CE3450600019D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816F6AAC1CE3450500019D7C /* KatakanaEigo */;
+			targetProxy = 816F6AC21CE3450600019D7C /* PBXContainerItemProxy */;
+		};
+		816F6ACE1CE3450600019D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816F6AAC1CE3450500019D7C /* KatakanaEigo */;
+			targetProxy = 816F6ACD1CE3450600019D7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		816F6AB41CE3450600019D7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816F6AB51CE3450600019D7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		816F6AB91CE3450600019D7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816F6ABA1CE3450600019D7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816F6AD31CE3450600019D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		816F6AD41CE3450600019D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816F6AD61CE3450600019D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KatakanaEigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kappa.KatakanaEigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		816F6AD71CE3450600019D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KatakanaEigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kappa.KatakanaEigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		816F6AD91CE3450600019D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KatakanaEigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kappa.KatakanaEigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KatakanaEigo.app/KatakanaEigo";
+			};
+			name = Debug;
+		};
+		816F6ADA1CE3450600019D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KatakanaEigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kappa.KatakanaEigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KatakanaEigo.app/KatakanaEigo";
+			};
+			name = Release;
+		};
+		816F6ADC1CE3450600019D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KatakanaEigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kappa.KatakanaEigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KatakanaEigo;
+			};
+			name = Debug;
+		};
+		816F6ADD1CE3450600019D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KatakanaEigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kappa.KatakanaEigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KatakanaEigo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816F6AA81CE3450500019D7C /* Build configuration list for PBXProject "KatakanaEigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F6AD31CE3450600019D7C /* Debug */,
+				816F6AD41CE3450600019D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816F6AD51CE3450600019D7C /* Build configuration list for PBXNativeTarget "KatakanaEigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F6AD61CE3450600019D7C /* Debug */,
+				816F6AD71CE3450600019D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		816F6AD81CE3450600019D7C /* Build configuration list for PBXNativeTarget "KatakanaEigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F6AD91CE3450600019D7C /* Debug */,
+				816F6ADA1CE3450600019D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		816F6ADB1CE3450600019D7C /* Build configuration list for PBXNativeTarget "KatakanaEigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F6ADC1CE3450600019D7C /* Debug */,
+				816F6ADD1CE3450600019D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816F6AA51CE3450500019D7C /* Project object */;
+}
