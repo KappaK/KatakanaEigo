@@ -14,6 +14,13 @@
 		816F6ABB1CE3450600019D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F6AB91CE3450600019D7C /* LaunchScreen.storyboard */; };
 		816F6AC61CE3450600019D7C /* KatakanaEigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AC51CE3450600019D7C /* KatakanaEigoTests.swift */; };
 		816F6AD11CE3450600019D7C /* KatakanaEigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AD01CE3450600019D7C /* KatakanaEigoUITests.swift */; };
+		816F6ADF1CE34C5F00019D7C /* FirstVocabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6ADE1CE34C5F00019D7C /* FirstVocabViewController.swift */; };
+		816F6AE11CE34C6F00019D7C /* SecondSentenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AE01CE34C6F00019D7C /* SecondSentenceViewController.swift */; };
+		816F6AE31CE34C7F00019D7C /* ThirdBusinessVocabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AE21CE34C7F00019D7C /* ThirdBusinessVocabViewController.swift */; };
+		816F6AE51CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AE41CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift */; };
+		818EC5E71CF5C5590059423E /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818EC5E51CF5C5590059423E /* CustomCell.swift */; };
+		818EC5E81CF5C5590059423E /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818EC5E61CF5C5590059423E /* CustomCell.xib */; };
+		818EC5EA1CF5C6CD0059423E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818EC5E91CF5C6CD0059423E /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		816F6ACC1CE3450600019D7C /* KatakanaEigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatakanaEigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		816F6AD01CE3450600019D7C /* KatakanaEigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatakanaEigoUITests.swift; sourceTree = "<group>"; };
 		816F6AD21CE3450600019D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816F6ADE1CE34C5F00019D7C /* FirstVocabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVocabViewController.swift; sourceTree = "<group>"; };
+		816F6AE01CE34C6F00019D7C /* SecondSentenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSentenceViewController.swift; sourceTree = "<group>"; };
+		816F6AE21CE34C7F00019D7C /* ThirdBusinessVocabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdBusinessVocabViewController.swift; sourceTree = "<group>"; };
+		816F6AE41CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthBusinessSentenceViewController.swift; sourceTree = "<group>"; };
+		818EC5E51CF5C5590059423E /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		818EC5E61CF5C5590059423E /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		818EC5E91CF5C6CD0059423E /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				816F6AB71CE3450600019D7C /* Assets.xcassets */,
 				816F6AB91CE3450600019D7C /* LaunchScreen.storyboard */,
 				816F6ABC1CE3450600019D7C /* Info.plist */,
+				816F6ADE1CE34C5F00019D7C /* FirstVocabViewController.swift */,
+				816F6AE01CE34C6F00019D7C /* SecondSentenceViewController.swift */,
+				816F6AE21CE34C7F00019D7C /* ThirdBusinessVocabViewController.swift */,
+				816F6AE41CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift */,
+				818EC5E51CF5C5590059423E /* CustomCell.swift */,
+				818EC5E61CF5C5590059423E /* CustomCell.xib */,
+				818EC5E91CF5C6CD0059423E /* Test.swift */,
 			);
 			path = KatakanaEigo;
 			sourceTree = "<group>";
@@ -234,6 +255,7 @@
 			files = (
 				816F6ABB1CE3450600019D7C /* LaunchScreen.storyboard in Resources */,
 				816F6AB81CE3450600019D7C /* Assets.xcassets in Resources */,
+				818EC5E81CF5C5590059423E /* CustomCell.xib in Resources */,
 				816F6AB61CE3450600019D7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816F6ADF1CE34C5F00019D7C /* FirstVocabViewController.swift in Sources */,
+				816F6AE31CE34C7F00019D7C /* ThirdBusinessVocabViewController.swift in Sources */,
+				816F6AE11CE34C6F00019D7C /* SecondSentenceViewController.swift in Sources */,
+				816F6AE51CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift in Sources */,
 				816F6AB31CE3450600019D7C /* ViewController.swift in Sources */,
+				818EC5EA1CF5C6CD0059423E /* Test.swift in Sources */,
+				818EC5E71CF5C5590059423E /* CustomCell.swift in Sources */,
 				816F6AB11CE3450600019D7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +513,7 @@
 				816F6AD71CE3450600019D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816F6AD81CE3450600019D7C /* Build configuration list for PBXNativeTarget "KatakanaEigoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +522,7 @@
 				816F6ADA1CE3450600019D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816F6ADB1CE3450600019D7C /* Build configuration list for PBXNativeTarget "KatakanaEigoUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +531,7 @@
 				816F6ADD1CE3450600019D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
