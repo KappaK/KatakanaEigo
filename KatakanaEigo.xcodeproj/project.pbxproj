@@ -20,7 +20,6 @@
 		816F6AE51CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AE41CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift */; };
 		818EC5E71CF5C5590059423E /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818EC5E51CF5C5590059423E /* CustomCell.swift */; };
 		818EC5E81CF5C5590059423E /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818EC5E61CF5C5590059423E /* CustomCell.xib */; };
-		818EC5EA1CF5C6CD0059423E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818EC5E91CF5C6CD0059423E /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		816F6AE41CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthBusinessSentenceViewController.swift; sourceTree = "<group>"; };
 		818EC5E51CF5C5590059423E /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		818EC5E61CF5C5590059423E /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
-		818EC5E91CF5C6CD0059423E /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +121,6 @@
 				816F6AE41CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift */,
 				818EC5E51CF5C5590059423E /* CustomCell.swift */,
 				818EC5E61CF5C5590059423E /* CustomCell.xib */,
-				818EC5E91CF5C6CD0059423E /* Test.swift */,
 			);
 			path = KatakanaEigo;
 			sourceTree = "<group>";
@@ -286,7 +283,6 @@
 				816F6AE11CE34C6F00019D7C /* SecondSentenceViewController.swift in Sources */,
 				816F6AE51CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift in Sources */,
 				816F6AB31CE3450600019D7C /* ViewController.swift in Sources */,
-				818EC5EA1CF5C6CD0059423E /* Test.swift in Sources */,
 				818EC5E71CF5C5590059423E /* CustomCell.swift in Sources */,
 				816F6AB11CE3450600019D7C /* AppDelegate.swift in Sources */,
 			);

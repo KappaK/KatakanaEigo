@@ -23,9 +23,11 @@ class CustomCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setCell(test: Test) {
-        self.label1.text = test.label1
-        self.label2.text = test.label2
+    func setCell(simpleWords:[String:String]) {
+        self.label1.text = simpleWords["Japanese"]
+        self.label2.text = simpleWords["English"]
     }
+    
+    
     
 }

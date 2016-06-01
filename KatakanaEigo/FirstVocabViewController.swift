@@ -12,7 +12,7 @@ class FirstVocabViewController: UIViewController, UITableViewDataSource, UITable
     
     let simpleWords : [[String:String]] = [["English":"Angry", "Japanese":"怒っている"],["English":"Beautiful", "Japanese":"美しい"],["English":"Intelligent", "Japanese":"賢い"],["English":"Young", "Japanese":"若い"],
                                            ["English":"Old", "Japanese":"古い、老いた"],["English":"Famous", "Japanese":"有名"],["English":"Brave", "Japanese":"勇気がある"],["English":"Interesting","Japanese":"興味深い"], ["English":"Generous", "Japanese":"寛大な"], ["English":"Stubborn", "Japanese":"頑固"],
-                                           ["Englush":"Sad", "Japanese":"悲しい"]]
+                                           ["English":"Sad", "Japanese":"悲しい"]]
     
  
     @IBOutlet weak var tableView: UITableView!
@@ -20,13 +20,16 @@ class FirstVocabViewController: UIViewController, UITableViewDataSource, UITable
   
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.estimatedRowHeight = 150.0
+        tableView.rowHeight = UITableViewAutomaticDimension
 
         // Do any additional setup after loading the view.
         
         tableView.delegate = self
         tableView.dataSource = self
         
-        var nib = UINib(nibName: "CustomCell", bundle: nil)
+        let nib = UINib(nibName: "CustomCell", bundle: nil)
         tableView.registerNib(nib, forCellReuseIdentifier: "Cell")
     }
 
@@ -36,9 +39,10 @@ class FirstVocabViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Cell")
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! CustomCell
         
-        cell.textLabel?.text = simpleWords[indexPath.row]["English"]
+       
+        cell.setCell(simpleWords[indexPath.row])
         return cell
         
     }
