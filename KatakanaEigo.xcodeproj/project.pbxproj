@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		816BD6FB1D082CC700987560 /* SecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BD6F91D082CC700987560 /* SecondCell.swift */; };
+		816BD6FC1D082CC700987560 /* SecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816BD6FA1D082CC700987560 /* SecondCell.xib */; };
 		816F6AB11CE3450600019D7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AB01CE3450600019D7C /* AppDelegate.swift */; };
 		816F6AB31CE3450600019D7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AB21CE3450600019D7C /* ViewController.swift */; };
 		816F6AB61CE3450600019D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F6AB41CE3450600019D7C /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		816BD6F91D082CC700987560 /* SecondCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCell.swift; sourceTree = "<group>"; };
+		816BD6FA1D082CC700987560 /* SecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondCell.xib; sourceTree = "<group>"; };
 		816F6AAD1CE3450500019D7C /* KatakanaEigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KatakanaEigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816F6AB01CE3450600019D7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		816F6AB21CE3450600019D7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		816BD6F81D082C8800987560 /* FirstCell */ = {
+			isa = PBXGroup;
+			children = (
+				818EC5E51CF5C5590059423E /* CustomCell.swift */,
+				818EC5E61CF5C5590059423E /* CustomCell.xib */,
+			);
+			name = FirstCell;
+			sourceTree = "<group>";
+		};
+		816BD6FD1D082CCC00987560 /* SecondCell */ = {
+			isa = PBXGroup;
+			children = (
+				816BD6F91D082CC700987560 /* SecondCell.swift */,
+				816BD6FA1D082CC700987560 /* SecondCell.xib */,
+			);
+			name = SecondCell;
+			sourceTree = "<group>";
+		};
 		816F6AA41CE3450500019D7C = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +141,8 @@
 				816F6AE01CE34C6F00019D7C /* SecondSentenceViewController.swift */,
 				816F6AE21CE34C7F00019D7C /* ThirdBusinessVocabViewController.swift */,
 				816F6AE41CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift */,
-				818EC5E51CF5C5590059423E /* CustomCell.swift */,
-				818EC5E61CF5C5590059423E /* CustomCell.xib */,
+				816BD6F81D082C8800987560 /* FirstCell */,
+				816BD6FD1D082CCC00987560 /* SecondCell */,
 			);
 			path = KatakanaEigo;
 			sourceTree = "<group>";
@@ -250,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816BD6FC1D082CC700987560 /* SecondCell.xib in Resources */,
 				816F6ABB1CE3450600019D7C /* LaunchScreen.storyboard in Resources */,
 				816F6AB81CE3450600019D7C /* Assets.xcassets in Resources */,
 				818EC5E81CF5C5590059423E /* CustomCell.xib in Resources */,
@@ -285,6 +308,7 @@
 				816F6AB31CE3450600019D7C /* ViewController.swift in Sources */,
 				818EC5E71CF5C5590059423E /* CustomCell.swift in Sources */,
 				816F6AB11CE3450600019D7C /* AppDelegate.swift in Sources */,
+				816BD6FB1D082CC700987560 /* SecondCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

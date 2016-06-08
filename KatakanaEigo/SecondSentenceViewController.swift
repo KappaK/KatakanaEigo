@@ -8,12 +8,23 @@
 
 import UIKit
 
-class SecondSentenceViewController: UIViewController {
+class SecondSentenceViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    let engSentences : [[String:String]] = [["English":"My name is ****", "Japanese":"私の名前は****。"],["English":"I am Japanese", "Japanese":"私は日本人です。"],["English":"I "]]
+    
+    @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.estimatedRowHeight = 100.0
+        tableView.rowHeight = UITableViewAutomaticDimension
 
-        // Do any additional setup after loading the view.
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        let nib = UINib(nibName: "SecondCell", bundle: nil)
+        tableView.registerNib(nib, forCellReuseIdentifier: "SecondCell")
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +32,20 @@ class SecondSentenceViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return engSentences.count
     }
-    */
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("SecondCell") as! SecondCell
+        
+        cell.setSecondCell(engSentences[indexPath.row])
+        return cell
+        
+    }
+    
+
+    
+ 
 
 }
