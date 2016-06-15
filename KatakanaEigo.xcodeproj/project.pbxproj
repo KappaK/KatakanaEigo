@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810ED5A21D116FEB00C39B2D /* ThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810ED5A01D116FEB00C39B2D /* ThirdCell.swift */; };
+		810ED5A31D116FEB00C39B2D /* ThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810ED5A11D116FEB00C39B2D /* ThirdCell.xib */; };
 		816BD6FB1D082CC700987560 /* SecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BD6F91D082CC700987560 /* SecondCell.swift */; };
 		816BD6FC1D082CC700987560 /* SecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816BD6FA1D082CC700987560 /* SecondCell.xib */; };
 		816F6AB11CE3450600019D7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6AB01CE3450600019D7C /* AppDelegate.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810ED5A01D116FEB00C39B2D /* ThirdCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCell.swift; sourceTree = "<group>"; };
+		810ED5A11D116FEB00C39B2D /* ThirdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdCell.xib; sourceTree = "<group>"; };
 		816BD6F91D082CC700987560 /* SecondCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCell.swift; sourceTree = "<group>"; };
 		816BD6FA1D082CC700987560 /* SecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondCell.xib; sourceTree = "<group>"; };
 		816F6AAD1CE3450500019D7C /* KatakanaEigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KatakanaEigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810ED59F1D116FD000C39B2D /* ThirdCell */ = {
+			isa = PBXGroup;
+			children = (
+				810ED5A01D116FEB00C39B2D /* ThirdCell.swift */,
+				810ED5A11D116FEB00C39B2D /* ThirdCell.xib */,
+			);
+			name = ThirdCell;
+			sourceTree = "<group>";
+		};
 		816BD6F81D082C8800987560 /* FirstCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +154,7 @@
 				816F6AE01CE34C6F00019D7C /* SecondSentenceViewController.swift */,
 				816F6AE21CE34C7F00019D7C /* ThirdBusinessVocabViewController.swift */,
 				816F6AE41CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift */,
+				810ED59F1D116FD000C39B2D /* ThirdCell */,
 				816BD6F81D082C8800987560 /* FirstCell */,
 				816BD6FD1D082CCC00987560 /* SecondCell */,
 			);
@@ -275,6 +289,7 @@
 				816BD6FC1D082CC700987560 /* SecondCell.xib in Resources */,
 				816F6ABB1CE3450600019D7C /* LaunchScreen.storyboard in Resources */,
 				816F6AB81CE3450600019D7C /* Assets.xcassets in Resources */,
+				810ED5A31D116FEB00C39B2D /* ThirdCell.xib in Resources */,
 				818EC5E81CF5C5590059423E /* CustomCell.xib in Resources */,
 				816F6AB61CE3450600019D7C /* Main.storyboard in Resources */,
 			);
@@ -307,6 +322,7 @@
 				816F6AE51CE34C8B00019D7C /* FourthBusinessSentenceViewController.swift in Sources */,
 				816F6AB31CE3450600019D7C /* ViewController.swift in Sources */,
 				818EC5E71CF5C5590059423E /* CustomCell.swift in Sources */,
+				810ED5A21D116FEB00C39B2D /* ThirdCell.swift in Sources */,
 				816F6AB11CE3450600019D7C /* AppDelegate.swift in Sources */,
 				816BD6FB1D082CC700987560 /* SecondCell.swift in Sources */,
 			);

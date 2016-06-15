@@ -8,12 +8,23 @@
 
 import UIKit
 
-class ThirdBusinessVocabViewController: UIViewController {
+class ThirdBusinessVocabViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    let businessWords : [[String:String]] = [["English":"Management", "Japanese":"経営、管理"], ["English":"Stakeholder", "Japanese":"賭け金の保管人"], ["English":"Marketing", "Japanese":"市場で売買すること"]]
+    
+    @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        tableView.estimatedRowHeight = 150.0
+        tableView.rowHeight = UITableViewAutomaticDimension
+                
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        let nib = UINib(nibName: "ThirdCell", bundle: nil)
+        tableView.registerNib(nib, forCellReuseIdentifier: "ThirdCell")
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +32,22 @@ class ThirdBusinessVocabViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return businessWords.count
     }
-    */
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell =
+            tableView.dequeueReusableCellWithIdentifier("ThirdCell") as! ThirdCell
+        
+    
+            
+        
+        cell.setThirdCell(businessWords[indexPath.row])
+        return cell
+    }
+    
+
+   
 
 }
